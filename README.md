@@ -8,7 +8,7 @@ The following **required** code has been created:
 - [X] RangedAttack.java
 
 The following **bonus** has been completed:
-- [ ] push these files to my GitHub account.
+- [X] push these files to my GitHub account.
 
 ---
 
