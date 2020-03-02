@@ -1,5 +1,3 @@
-# Monster
-
 # Monster - Part 01
 The following **required** code has been created:
 - [X] Ability.java
