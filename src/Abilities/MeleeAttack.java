@@ -1,23 +1,26 @@
+package Abilities;
+
+import Monsters.Monster;
 
 /**
- * @title RangedAttack.java
+ * @title Abilities.MeleeAttack.java
  * @author Athena Enosara
  * @since 26 - February - 2020
  * @abstract This is Part01 of the Strategy Homework of week 5.
  *      We are to create code in accordance to the UML diagram in the given pdf.
  */
 
-public class RangedAttack implements Attack {
+public class MeleeAttack implements Attack {
     Monster attacker;
 
-    public RangedAttack(Monster attacker){
+    public MeleeAttack(Monster attacker){
         this.attacker = attacker;
     }
 
     @Override
     public Integer attack(Monster target) {
-        String message = attacker + " uses a ranged attack on" + target;
+        String message = attacker + " uses a melee attack on" + target;
         System.out.println(message);
-        return null;
+        return attacker.getStr() - target.getDef();
     }
 }

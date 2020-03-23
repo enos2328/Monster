@@ -1,6 +1,7 @@
+package Abilities;
 
 /**
- * @title Ability.java
+ * @title Abilities.Ability.java
  * @author Athena Enosara
  * @since 26 - February - 2020
  * @abstract This is Part01 of the Strategy Homework of week 5.
